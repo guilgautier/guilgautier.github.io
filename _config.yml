@@ -15,15 +15,15 @@ minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "default", "d
 
 # Site Settings
 locale: "en-US"
-title: "Site Title"
+title: "Home"
 title_separator: "-"
-subtitle: "subtitle" # site tagline that appears below site title in masthead
-name: "FirstName LastName"
-description: "Description"
+subtitle: "" # site tagline that appears below site title in masthead
+name: "Guillaume Gautier"
+description: "Personal web page"
 github: [metadata]
-url: "https://cristal-sigma.github.io"
+url: "https://guilgautier.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
-repository: "CRIStAL-Sigma/cristal-sigma.github.io"
+repository: "guilgautier/guilgautier.github.io"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
@@ -97,13 +97,13 @@ analytics:
 # _includes/author-profile.html
 # _includes/author-profile-custom-links.html
 author:
-  name: "FirstName LastName"
+  name: "Guillaume Gautier"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "My short bio"
+  bio: "Research Software Engineer"
   location: "Lille, France"
-  email: "my.name@email.com"
-  github: "CRIStAL-Sigma"
-  webpage: "https://cristal-sigma.github.io"
+  email: "guillaume.gga@gmail.com"
+  github: "guilgautier"
+  webpage: "https://guilgautier.github.io"
   # Academic profiles
   # To make logo+link appear in author_profile on the left side of the page
   # - fill the corresponding field
@@ -132,8 +132,8 @@ author:
     dryad:
     elsevier:
     figshare:
-    google-scholar: #"https://scholar.google.com/citations?user=<user-id>=en"
-    hal: #https://orcid.org/<orcid-id>
+    google-scholar: https://scholar.google.com/citations?user=zu3OK1kAAAAJ
+    hal: "https://orcid.org/0000-0002-4494-7891"
     hypothesis:
     ideas-repec:
     ieee:
@@ -153,7 +153,7 @@ author:
     open-materials:
     obp:
     openedition:
-    orcid: #https://orcid.org/<orcid-id>
+    orcid: "https://orcid.org/0000-0002-4494-7891"
     osf:
     overleaf:
     philpapers:
@@ -193,7 +193,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/CRIStAL-Sigma"
+      # url: "https://github.com/guilgautier"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -211,7 +211,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/CRIStAL-Sigma"
+      url: "https://github.com/guilgautier"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -309,7 +309,7 @@ scholar:
     reversed: "reversed"
 
   source: _bibliography # where .bib files are saved
-  bibliography: example.bib # .bib file
+  bibliography: gautier.bib # .bib file
   # Custom bibliography display in _layouts/bibliography.html
   bibliography_template: bibliography
 

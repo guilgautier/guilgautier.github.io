@@ -1,6 +1,8 @@
 # main links
 main:
+  - title: "Teaching"
+    url: /teaching/
   - title: "Publications"
     url: /publications/
-  - title: "Quick-Start Guide"
-    url: https://github.com/CRIStAL-Sigma/cristal-sigma.github.io/blob/master/README.md
+  - title: "CV"
+    url: assets/pdfs/GaBaVa19c_poster.pdf

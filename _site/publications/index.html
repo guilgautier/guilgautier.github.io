@@ -9,22 +9,22 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Publications - Site Title</title>
-<meta name="description" content="Description">
+<!-- begin _includes/seo.html --><title>Publications - Home</title>
+<meta name="description" content="Personal web page">
 
 
-  <meta name="author" content="FirstName LastName">
+  <meta name="author" content="Guillaume Gautier">
   
 
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="Site Title">
+<meta property="og:site_name" content="Home">
 <meta property="og:title" content="Publications">
 <meta property="og:url" content="http://localhost:4000/publications/">
 
 
-  <meta property="og:description" content="Description">
+  <meta property="og:description" content="Personal web page">
 
 
 
@@ -51,7 +51,7 @@
     "@context": "https://schema.org",
     
       "@type": "Person",
-      "name": "FirstName LastName",
+      "name": "Guillaume Gautier",
       "url": "http://localhost:4000/"
     
   }
@@ -67,7 +67,7 @@
 
 
 
-  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Site Title Feed">
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Home Feed">
 
 
 <!-- https://t.co/dKP3o1e -->
@@ -111,7 +111,7 @@
 
   </head>
 
-  <body class="layout--home wide">
+  <body class="layout--single">
     <nav class="skip-links">
   <h2 class="screen-reader-text">Skip links</h2>
   <ul>
@@ -133,13 +133,15 @@
       <nav id="site-nav" class="greedy-nav">
         
         <a class="site-title" href="/">
-          Site Title
-          <span class="site-subtitle">subtitle</span>
+          Home
+          <span class="site-subtitle"></span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/teaching/">Teaching</a>
+            </li><li class="masthead__menu-item">
               <a href="/publications/">Publications</a>
             </li><li class="masthead__menu-item">
-              <a href="https://github.com/CRIStAL-Sigma/cristal-sigma.github.io/blob/master/README.md">Quick-Start Guide</a>
+              <a href="/assets/pdfs/GaBaVa19c_poster.pdf">CV</a>
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
@@ -169,18 +171,18 @@
   
     <div class="author__avatar">
       
-        <img src="/assets/images/bio-photo.jpg" alt="FirstName LastName" itemprop="image">
+        <img src="/assets/images/bio-photo.jpg" alt="Guillaume Gautier" itemprop="image">
       
     </div>
   
 
   <div class="author__content">
     
-      <h3 class="author__name" itemprop="name">FirstName LastName</h3>
+      <h3 class="author__name" itemprop="name">Guillaume Gautier</h3>
     
     
       <div class="author__bio" itemprop="description">
-        <p>My short bio</p>
+        <p>Research Software Engineer</p>
 
       </div>
     
@@ -215,8 +217,8 @@
 
       
         <li>
-          <a href="mailto:my.name@email.com">
-            <meta itemprop="email" content="my.name@email.com" />
+          <a href="mailto:guillaume.gga@gmail.com">
+            <meta itemprop="email" content="guillaume.gga@gmail.com" />
             <i class="fas fa-fw fa-envelope" aria-hidden="true"></i><span class="label">Email</span>
           </a>
         </li>
@@ -240,7 +242,7 @@
 
       
         <li>
-          <a href="https://github.com/CRIStAL-Sigma" itemprop="sameAs" rel="nofollow noopener noreferrer">
+          <a href="https://github.com/guilgautier" itemprop="sameAs" rel="nofollow noopener noreferrer">
             <i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span>
           </a>
         </li>
@@ -326,9 +328,21 @@
 
 <!--  -->
 
-<!--  -->
+<!-- 
+  <li>
+    <a href="https://scholar.google.com/citations?user=zu3OK1kAAAAJ" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="ai ai-google-scholar" aria-hidden="true"></i><span class="label">Scholar</span>
+    </a>
+  </li>
+ -->
 
 <!-- 
+  <li>
+    <a href="https://orcid.org/0000-0002-4494-7891" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="ai ai-hal" aria-hidden="true"></i><span class="label">Hal</span>
+    </a>
+  </li>
+
 
  -->
 
@@ -368,7 +382,13 @@
 
  -->
 
-<!--  -->
+<!-- 
+  <li>
+    <a href="https://orcid.org/https://orcid.org/0000-0002-4494-7891" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="ai ai-orcid" aria-hidden="true"></i><span class="label">Orcid</span>
+    </a>
+  </li>
+ -->
 
 <!-- 
 
@@ -423,248 +443,184 @@
 
 
 
-  <div class="archive">
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Publications">
     
-      <h1 id="page-title" class="page__title">Publications</h1>
     
     
-<!-- See also https://github.com/inukshuk/jekyll-scholar to customize your references -->
 
-<p>This is a mock example: the references are not correct!</p>
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Publications
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Publications</h4></header>
+              <ul class="toc__menu"><li><a href="#journal-articles">Journal articles</a></li><li><a href="#conference-papers">Conference papers</a></li><li><a href="#workshop-papers">Workshop papers</a></li><li><a href="#thesis">Thesis</a></li><li><a href="#popularization">Popularization</a></li></ul>
+
+            </nav>
+          </aside>
+        
+        
+<p><a href="https://scholar.google.com/citations?user=zu3OK1kAAAAJ">
+    <i class="ai ai-google-scholar" aria-hidden="true"></i>Scholar
+  </a></p>
+
+<p><a href="https://orcid.org/0000-0002-4494-7891">
+    <i class="ai ai-orcid" aria-hidden="true"></i>Orcid
+  </a></p>
+
+<p><a href="https://orcid.org/0000-0002-4494-7891">
+    <i class="ai ai-hal" aria-hidden="true"></i>HAL
+  </a></p>
+
+<!-- See also https://github.com/inukshuk/jekyll-scholar to customize your references -->
 
 <!-- Preprints -->
 
-<h2>Preprints</h2>
-<ol class="bibliography" reversed="reversed"><li><span id="Mittelbach2105">Mittelbach, F., &amp; Goossens, M. (2105). <i>The \LaTeX Companion</i> (Second). Addison–Wesley.</span>
-
-
-
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-        
-        
-
-
-
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-        
-        
-
-<div class="btn-group">
-    
-        <a class="btn" href="https://www.google.com/">
-            <i class="fa fa-newspaper"></i>
-            <span>paper</span>
-        </a>
-    
-
-    
-        <a class="btn" href="https://arxiv.org/abs/id">
-            <i class="ai ai-arxiv"></i>
-            <span>arXiv</span>
-        </a>
-    
-
-    
-        <a class="btn" href="https://github.com">
-            <i class="fab fa-fw fa-github"></i>
-            <span>code</span>
-        </a>
-    
-
-    
-        <a class="btn" href="https://www.youtube.com/">
-            <i class="fa fa-tv"></i>
-            <span>video</span>
-        </a>
-    
-
-    
-        <a class="btn" href="/assets/pdfs/Mittelbach2105_slides.pdf">
-            <i class="fa fa-image"></i>
-            <span>slides</span>
-        </a>
-    
-
-    
-        <a class="btn" href="/assets/pdfs/Mittelbach2105_poster.pdf">
-            <i class="fa fa-map"></i>
-            <span>poster</span>
-        </a>
-    
-
-</div>
-</li></ol>
+<!-- Journal articles-->
 
 <!-- Journal articles-->
 
-<h2>Books</h2>
-<ol class="bibliography" reversed="reversed"><li><span id="Tufte2152">Tufte, E. R. (2152). <i>Beautiful Evidence</i> (First). Graphics Press, LLC.</span>
+<h2 id="journal-articles">Journal articles</h2>
 
-
-
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+<ol class="bibliography" reversed="reversed"><li><span id="GaBaVa21"><b>Gautier, G.</b>, Bardenet, R., &amp; Valko, M. (2021). Fast sampling from β-ensembles. <i>Statistics and Computing</i>.</span>
 
 
 
 
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <div class="btn-group">
     
+    <a class="btn" href="http://link.springer.com/10.1007/s11222-020-09984-0">
+        <i class="fa fa-newspaper"></i>
+        <span>paper</span>
+    </a>
+    
+
+    
+    <a class="btn" href="https://arxiv.org/abs/2003.02344">
+        <i class="ai ai-arxiv"></i>
+        <span>arXiv</span>
+    </a>
+    
 
     
 
+    
+    <a class="btn" href="http://github.com/guilgautier/DPPy/">
+        <i class="fab fa-fw fa-github"></i>
+        <span>code</span>
+    </a>
     
 
     
@@ -675,242 +631,134 @@
 
 </div>
 </li>
-<li><span id="Tufte2106">Tufte, E. R. (2106). <i>Beautiful Evidence</i> (First). Graphics Press, LLC.</span>
-
-
-
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+<li><span id="GPBV19"><b>Gautier, G.</b>, Polito, G., Bardenet, R., &amp; Valko, M. (2019). DPPy: DPP Sampling with Python. <i>Journal of Machine Learning Research - Machine Learning Open Source Software (JMLR-MLOSS)</i>.</span>
 
 
 
 
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <div class="btn-group">
     
+    <a class="btn" href="http://jmlr.org/papers/v20/19-179.html">
+        <i class="fa fa-newspaper"></i>
+        <span>paper</span>
+    </a>
+    
 
+    
+    <a class="btn" href="https://arxiv.org/abs/1809.07258">
+        <i class="ai ai-arxiv"></i>
+        <span>arXiv</span>
+    </a>
     
 
     
 
     
-
-    
-
-    
-
-</div>
-</li></ol>
-
-<!-- Journal articles-->
-
-<h2>Journal articles</h2>
-<ol class="bibliography" reversed="reversed"><li><span id="Tufte2990">Tufte, E. R. (2990). <i>Envisioning Information</i>.</span>
-
-
-
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-
-
-
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-
-<div class="btn-group">
-    
-
-    
-
+    <a class="btn" href="http://github.com/guilgautier/DPPy/">
+        <i class="fab fa-fw fa-github"></i>
+        <span>code</span>
+    </a>
     
 
     
@@ -924,118 +772,274 @@
 
 <!-- Conference papers -->
 
-<h2>Conference papers</h2>
-<ol class="bibliography" reversed="reversed"><li><span id="Tufte2997">Tufte, E. R. (2997). <i>Visual Explanations</i>.</span>
+<h2 id="conference-papers">Conference papers</h2>
 
-
-
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+<ol class="bibliography" reversed="reversed"><li><span id="GaBaVa19b"><b>Gautier, G.</b>, Bardenet, R., &amp; Valko, M. (2019). On two ways to use determinantal point processes for Monte Carlo integration. <i>Advances in Neural Information Processing Systems (NeurIPS)</i>.</span>
 
 
 
 
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <div class="btn-group">
     
+    <a class="btn" href="http://papers.nips.cc/paper/8992-on-two-ways-to-use-determinantal-point-processes-for-monte-carlo-integration">
+        <i class="fa fa-newspaper"></i>
+        <span>paper</span>
+    </a>
+    
+
+    
+    <a class="btn" href="https://arxiv.org/abs/">
+        <i class="ai ai-arxiv"></i>
+        <span>arXiv</span>
+    </a>
+    
 
     
 
+    
+    <a class="btn" href="https://github.com/guilgautier/DPPy/">
+        <i class="fab fa-fw fa-github"></i>
+        <span>code</span>
+    </a>
+    
+
+    
+
+    
+
+    
+
+</div>
+</li>
+<li><span id="GaBaVa17"><b>Gautier, G.</b>, Bardenet, R., &amp; Valko, M. (2017). Zonotope Hit-and-run for Efficient Sampling from Projection DPPs. <i>International Conference on Machine Learning (ICML)</i>.</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-group">
+    
+    <a class="btn" href="http://proceedings.mlr.press/v70/gautier17a">
+        <i class="fa fa-newspaper"></i>
+        <span>paper</span>
+    </a>
+    
+
+    
+    <a class="btn" href="https://arxiv.org/abs/1705.10498">
+        <i class="ai ai-arxiv"></i>
+        <span>arXiv</span>
+    </a>
+    
+
+    
+
+    
+    <a class="btn" href="https://github.com/guilgautier/DPPy/">
+        <i class="fab fa-fw fa-github"></i>
+        <span>code</span>
+    </a>
     
 
     
@@ -1049,118 +1053,136 @@
 
 <!-- Workshop papers -->
 
-<h2>Workshop papers</h2>
-<ol class="bibliography" reversed="reversed"><li><span id="Bringhurst2105">Bringhurst, R. (2105). <i>The Elements of Typography</i> (3.1 ed.). Hartley &amp; Marks.</span>
+<h2 id="workshop-papers">Workshop papers</h2>
 
-
-
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+<ol class="bibliography" reversed="reversed"><li><span id="GaBaVa19a"><b>Gautier, G.</b>, Bardenet, R., &amp; Valko, M. (2019). <i>On two ways to use determinantal point processes for Monte Carlo integration</i>. Workshop on Negative Dependence in Machine Learning, International Conference on Machine Learning (ICML).</span>
 
 
 
 
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <div class="btn-group">
     
+    <a class="btn" href="https://negative-dependence-in-ml-workshop.lids.mit.edu/wp-content/uploads/sites/29/2019/06/icml_camera_ready.pdf">
+        <i class="fa fa-newspaper"></i>
+        <span>paper</span>
+    </a>
+    
+
+    
+    <a class="btn" href="https://arxiv.org/abs/">
+        <i class="ai ai-arxiv"></i>
+        <span>arXiv</span>
+    </a>
+    
 
     
 
+    
+    <a class="btn" href="https://github.com/guilgautier/DPPy/">
+        <i class="fab fa-fw fa-github"></i>
+        <span>code</span>
+    </a>
     
 
     
@@ -1170,122 +1192,274 @@
     
 
 </div>
-</li></ol>
-
-<!-- Thesis -->
-
-<h2>Thesis</h2>
-<ol class="bibliography" reversed="reversed"><li><span id="Mittelbach2104">Mittelbach, F., &amp; Goossens, M. (2104). <i>The \LaTeX Companion</i> (Second). Addison–Wesley.</span>
-
-
-
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+</li>
+<li><span id="GaBaVa19c"><b>Gautier, G.</b>, Bardenet, R., &amp; Valko, M. (2019). <i>Les processus ponctuels déterminantaux en apprentissage automatique</i>. French Colloquium on Signal and Image Processing (GRETSI).</span>
 
 
 
 
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <div class="btn-group">
     
+    <a class="btn" href="http://researchers.lille.inria.fr/valko/hp/publications/gautier2019processus.pdf">
+        <i class="fa fa-newspaper"></i>
+        <span>paper</span>
+    </a>
+    
+
+    
+    <a class="btn" href="https://arxiv.org/abs/">
+        <i class="ai ai-arxiv"></i>
+        <span>arXiv</span>
+    </a>
+    
+
+    
+    <a class="btn" href="https://hal.archives-ouvertes.fr/">
+        <i class="ai ai-hal"></i>
+        <span>HAL</span>
+    </a>
+    
+
+    
+    <a class="btn" href="https://github.com/guilgautier/DPPy/">
+        <i class="fab fa-fw fa-github"></i>
+        <span>code</span>
+    </a>
+    
+
+    
+    <a class="btn" href="https://www.youtube.com">
+        <i class="fa fa-tv"></i>
+        <span>video</span>
+    </a>
+    
 
     
 
+    
+    <a class="btn" href="/assets/pdfs/GaBaVa19c_poster.pdf">
+        <i class="fa fa-map"></i>
+        <span>poster</span>
+    </a>
+    
+
+</div>
+</li></ol>
+
+<!-- Thesis -->
+
+<h2 id="thesis">Thesis</h2>
+
+<ol class="bibliography" reversed="reversed"><li><span id="Gau20"><b>Gautier, G.</b> (2020). <i>On sampling determinantal point processes</i> (Number 2020ECLI0002) [Ph.D. thesis, École Centrale de Lille].</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-group">
+    
+    <a class="btn" href="http://www.theses.fr/en/2020ECLI0002">
+        <i class="fa fa-newspaper"></i>
+        <span>paper</span>
+    </a>
+    
+
+    
+    <a class="btn" href="https://arxiv.org/abs/">
+        <i class="ai ai-arxiv"></i>
+        <span>arXiv</span>
+    </a>
+    
+
+    
+
+    
+    <a class="btn" href="https://github.com/guilgautier/DPPy/">
+        <i class="fab fa-fw fa-github"></i>
+        <span>code</span>
+    </a>
     
 
     
@@ -1299,118 +1473,136 @@
 
 <!-- Popularization -->
 
-<h2>Popularization</h2>
-<ol class="bibliography" reversed="reversed"><li><span id="Bringhurst2106">Bringhurst, R. (2105). <i>The Elements of Typography</i> (3.1 ed.). Hartley &amp; Marks.</span>
+<h2 id="popularization">Popularization</h2>
 
-
-
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+<ol class="bibliography" reversed="reversed"><li><span id="GaBaVa17_popularization"><b>Gautier, G.</b>, Bardenet, R., &amp; Valko, M. (2017). <i>Un dé pipé aux multiples facettes pour améliorer les moteurs de recherche</i>. CNRS info - Résultats Scientifiques - Informatique.</span>
 
 
 
 
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <div class="btn-group">
     
+    <a class="btn" href="https://ins2i.cnrs.fr/fr/cnrsinfo/un-de-pipe-aux-multiples-facettes-pour-ameliorer-les-moteurs-de-recherche">
+        <i class="fa fa-newspaper"></i>
+        <span>paper</span>
+    </a>
+    
+
+    
+    <a class="btn" href="https://arxiv.org/abs/">
+        <i class="ai ai-arxiv"></i>
+        <span>arXiv</span>
+    </a>
+    
 
     
 
+    
+    <a class="btn" href="">
+        <i class="fab fa-fw fa-github"></i>
+        <span>code</span>
+    </a>
     
 
     
@@ -1423,21 +1615,31 @@
 </li></ol>
 
 
+        
+      </section>
 
-<!-- <h3 class="archive__subtitle">Recent posts</h3>
+      <footer class="page__meta">
+        
+        
 
 
+        
 
 
-<div class="entries-list">
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
   
 </div>
 
-
- -->
-
-  </div>
-</div>
     </div>
 
     
@@ -1460,7 +1662,7 @@
         
       
         
-          <li><a href="https://github.com/CRIStAL-Sigma" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          <li><a href="https://github.com/guilgautier" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
         
       
         
@@ -1477,7 +1679,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2021 FirstName LastName. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2021 Guillaume Gautier. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

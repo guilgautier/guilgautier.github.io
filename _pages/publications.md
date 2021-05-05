@@ -1,9 +1,12 @@
 ---
 permalink: "/publications/"
-layout: home
-classes: wide
-author_profile: true
+layout: single
+# classes: wide
+# author_profile: true
 title: "Publications"
+toc: true
+toc_sticky: true
+toc_label: "Publications"
 ---
 
 {% if site.author.academic_profiles.google-scholar %}
@@ -29,53 +32,65 @@ title: "Publications"
 
 <!-- See also https://github.com/inukshuk/jekyll-scholar to customize your references -->
 
-This is a mock example: the references are not correct!
-
 <!-- Preprints -->
 {% capture counter_preprints %}{% bibliography_count --query @unpublished %}{% endcapture %}
 {% if counter_preprints != "0" %}
-  <h2>Preprints</h2>
+
+## Preprints
+
   {% bibliography --query @unpublished %}
 {% endif %}
 
 <!-- Journal articles-->
 {% capture counter_book %}{% bibliography_count --query @book %}{% endcapture %}
 {% if counter_book != "0" %}
-  <h2>Books</h2>
+
+## Books
+
   {% bibliography --query @book %}
 {% endif %}
 
 <!-- Journal articles-->
 {% capture counter_article %}{% bibliography_count --query @article %}{% endcapture %}
 {% if counter_article != "0" %}
-  <h2>Journal articles</h2>
+
+## Journal articles
+
   {% bibliography --query @article %}
 {% endif %}
 
 <!-- Conference papers -->
 {% capture counter_inproceedings %}{% bibliography_count --query @inproceedings %}{% endcapture %}
 {% if counter_inproceedings != "0" %}
-  <h2>Conference papers</h2>
+
+## Conference papers
+
   {% bibliography --query @inproceedings %}
 {% endif %}
 
 <!-- Workshop papers -->
 {% capture counter_workshop %}{% bibliography_count --query @misc[keywords=workshop] %}{% endcapture %}
 {% if counter_workshop != "0" %}
-  <h2>Workshop papers</h2>
+
+## Workshop papers
+
   {% bibliography --query @misc[keywords=workshop] %}
 {% endif %}
 
 <!-- Thesis -->
 {% capture counter_thesis %}{% bibliography_count --query @thesis %}{% endcapture %}
 {% if counter_thesis != "0" %}
-  <h2>Thesis</h2>
+
+## Thesis
+
   {% bibliography --query @thesis %}
 {% endif %}
 
 <!-- Popularization -->
 {% capture counter_popularization %}{% bibliography_count --query @misc[keywords=popularization] %}{% endcapture %}
 {% if counter_popularization != "0" %}
-  <h2>Popularization</h2>
+
+## Popularization
+
   {% bibliography --query @misc[keywords=popularization] %}
 {% endif %}
