@@ -15,9 +15,9 @@ minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "default", "d
 
 # Site Settings
 locale: "en-US"
-title: "Home"
+title: "Guillaume Gautier"
 title_separator: "-"
-subtitle: "" # site tagline that appears below site title in masthead
+subtitle: "Home" # site tagline that appears below site title in masthead
 name: "Guillaume Gautier"
 description: "Personal web page"
 github: [metadata]
@@ -98,8 +98,8 @@ analytics:
 # _includes/author-profile-custom-links.html
 author:
   name: "Guillaume Gautier"
-  avatar: "/assets/images/bio-photo.jpg"
-  bio: "Research Software Engineer"
+  avatar: "/assets/images/guillaume_gautier.jpg"
+  bio: "Research Software Engineer, Ph.D. in Machine Learning"
   location: "Lille, France"
   email: "guillaume.gga@gmail.com"
   github: "guilgautier"
@@ -115,7 +115,7 @@ author:
     acmdl:
     ads:
     africarxiv:
-    arxiv: # https://arxiv.org/a/<orcid-id | arxiv-id>
+    arxiv: "https://arxiv.org/a/0000-0002-4494-7891"
     biorxiv:
     ceur:
     ciencia-vitae:
@@ -132,8 +132,8 @@ author:
     dryad:
     elsevier:
     figshare:
-    google-scholar: https://scholar.google.com/citations?user=zu3OK1kAAAAJ
-    hal: "https://orcid.org/0000-0002-4494-7891"
+    google-scholar: "https://scholar.google.com/citations?user=zu3OK1kAAAAJ"
+    hal:
     hypothesis:
     ideas-repec:
     ieee:
@@ -194,9 +194,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/guilgautier"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    - label: "Scholar"
+      icon: "ai ai-google-scholar"
+      url: "https://scholar.google.com/citations?user=zu3OK1kAAAAJ"
 
 # Site Footer
 # - see how links are displayed in _includes/footer.html
