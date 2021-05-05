@@ -50,13 +50,6 @@
     </a>
     {% endif %}
 
-    {% if entry.video %}
-    <a class="btn" href="{{ entry.video }}">
-        <i class="fa fa-tv"></i>
-        <span>video</span>
-    </a>
-    {% endif %}
-
     {% if slides_exists %}
     <a class="btn" href="{{ path_to_slides }}">
         <i class="fa fa-image"></i>
@@ -68,6 +61,13 @@
     <a class="btn" href="{{ path_to_poster }}">
         <i class="fa fa-map"></i>
         <span>poster</span>
+    </a>
+    {% endif %}
+
+    {% if entry.video %}
+    <a class="btn" href="{{ entry.video }}">
+        <i class="fa fa-tv"></i>
+        <span>video</span>
     </a>
     {% endif %}
 
