@@ -1,8 +1,8 @@
 # main links
 main:
-  - title: "Teaching"
-    url: /teaching/
   - title: "Publications"
     url: /publications/
+  - title: "Software"
+    url: /software/
   - title: "CV"
-    url: assets/pdfs/GaBaVa19c_poster.pdf
+    url: assets/pdfs/cv_guillaume_gautier.pdf
