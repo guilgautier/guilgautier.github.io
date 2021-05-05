@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Home</title>
+<!-- begin _includes/seo.html --><title>Guillaume Gautier</title>
 <meta name="description" content="Personal web page">
 
 
@@ -19,8 +19,8 @@
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="Home">
-<meta property="og:title" content="Home">
+<meta property="og:site_name" content="Guillaume Gautier">
+<meta property="og:title" content="Guillaume Gautier">
 <meta property="og:url" content="http://localhost:4000/">
 
 
@@ -67,7 +67,7 @@
 
 
 
-  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Home Feed">
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Guillaume Gautier Feed">
 
 
 <!-- https://t.co/dKP3o1e -->
@@ -133,15 +133,15 @@
       <nav id="site-nav" class="greedy-nav">
         
         <a class="site-title" href="/">
-          Home
-          <span class="site-subtitle"></span>
+          Guillaume Gautier
+          <span class="site-subtitle">Home</span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/teaching/">Teaching</a>
-            </li><li class="masthead__menu-item">
               <a href="/publications/">Publications</a>
             </li><li class="masthead__menu-item">
-              <a href="/assets/pdfs/GaBaVa19c_poster.pdf">CV</a>
+              <a href="/software/">Software</a>
+            </li><li class="masthead__menu-item">
+              <a href="/assets/pdfs/cv_guillaume_gautier.pdf">CV</a>
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
@@ -169,22 +169,22 @@
 <div itemscope itemtype="https://schema.org/Person">
 
   
-    <div class="author__avatar">
-      
-        <img src="/assets/images/bio-photo.jpg" alt="Guillaume Gautier" itemprop="image">
-      
-    </div>
+  <div class="author__avatar">
+    
+    <img src="/assets/images/guillaume_gautier.jpg" alt="Guillaume Gautier" itemprop="image">
+    
+  </div>
   
 
   <div class="author__content">
     
-      <h3 class="author__name" itemprop="name">Guillaume Gautier</h3>
+    <h3 class="author__name" itemprop="name">Guillaume Gautier</h3>
     
     
-      <div class="author__bio" itemprop="description">
-        <p>Research Software Engineer</p>
+    <div class="author__bio" itemprop="description">
+      <p>Research Software Engineer, Ph.D. in Machine Learning</p>
 
-      </div>
+    </div>
     
   </div>
 
@@ -192,36 +192,20 @@
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
       
-        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Lille, France</span>
-        </li>
-      
-
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
+      <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+        <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Lille, France</span>
+      </li>
       
 
       
 
       
-        <li>
-          <a href="mailto:guillaume.gga@gmail.com">
-            <meta itemprop="email" content="guillaume.gga@gmail.com" />
-            <i class="fas fa-fw fa-envelope" aria-hidden="true"></i><span class="label">Email</span>
-          </a>
-        </li>
+      <li>
+        <a href="mailto:guillaume.gga@gmail.com">
+          <meta itemprop="email" content="guillaume.gga@gmail.com" />
+          <i class="fas fa-fw fa-envelope" aria-hidden="true"></i><span class="label">Email</span>
+        </a>
+      </li>
       
 
       
@@ -241,11 +225,11 @@
       
 
       
-        <li>
-          <a href="https://github.com/guilgautier" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span>
-          </a>
-        </li>
+      <li>
+        <a href="https://github.com/guilgautier" itemprop="sameAs" rel="nofollow noopener noreferrer">
+          <i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span>
+        </a>
+      </li>
       
 
       
@@ -272,6 +256,25 @@
 
       
 
+      
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <li><a href="https://scholar.google.com/citations?user=zu3OK1kAAAAJ" rel="nofollow noopener noreferrer"><i
+            class="ai ai-google-scholar" aria-hidden="true"></i><span class="label">Scholar</span></a></li>
+      
+      
       
 
       <!--
@@ -294,7 +297,13 @@
 
  -->
 
-<!--  -->
+<!-- 
+  <li>
+    <a href="https://arxiv.org/a/0000-0002-4494-7891" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="ai ai-arxiv" aria-hidden="true"></i><span class="label">Arxiv</span>
+    </a>
+  </li>
+ -->
 
 <!--  -->
 
@@ -337,12 +346,6 @@
  -->
 
 <!-- 
-  <li>
-    <a href="https://orcid.org/0000-0002-4494-7891" itemprop="sameAs" rel="nofollow noopener noreferrer">
-      <i class="ai ai-hal" aria-hidden="true"></i><span class="label">Hal</span>
-    </a>
-  </li>
-
 
  -->
 
@@ -447,10 +450,19 @@
     
       <h1 id="page-title" class="page__title"></h1>
     
-    <p>I am currently a XXX at <a href="https://www.cristal.univ-lille.fr/">CRIStAL</a> in the <a href="https://www.cristal.univ-lille.fr/?rubrique27&amp;eid=30">SigMA</a> team in Lille.</p>
+    <p>I am currently a research software engineer at <a href="https://www.cristal.univ-lille.fr/">CRIStAL</a> in Lille, working for <a href="https://rbardenet.github.io">Rémi Bardenet</a>’s research group.</p>
+
+<p>Before that, I was a postdoctoral researcher at <a href="https://www.gipsa-lab.grenoble-inp.fr/en/home.php">GIPSA-lab</a> in Grenoble, working in the <a href="https://www.gipsa-lab.grenoble-inp.fr/en/cics.php">GAIA</a> team with <a href="https://barthesi.gricad-pages.univ-grenoble-alpes.fr/">Simon Barthelmé</a>, <a href="https://www.gipsa-lab.fr/~nicolas.tremblay/">Nicolas Tremblay</a> and <a href="https://www.gipsa-lab.grenoble-inp.fr/~bidou.amblard/">Pierre-Olivier Amblard</a>.
+From 2017 to 2020, I did my Ph.D. at <a href="https://www.cristal.univ-lille.fr/">CRIStAL</a> in Lille, where I worked in the <a href="https://www.cristal.univ-lille.fr/?rubrique27&amp;eid=30">SigMA</a> and
+<a href="https://www.cristal.univ-lille.fr/?rubrique27&amp;eid=15">SequeL</a> teams, under the supervision of <a href="https://rbardenet.github.io">Rémi Bardenet</a> and <a href="https://researchers.lille.inria.fr/~valko/hp/">Michal Valko</a>.</p>
+
+<h3 id="research-interests">Research interests</h3>
+
+<p>Computational statistics, Monte Carlo methods, point processes, simulation algorithms.
+Interaction between optimization and simulation, e.g., randomized optimization problems.</p>
 
 <div align="middle" style="margin-top: 50px">
-  <a href="http://www.cnrs.fr/en"><img class="logo" alt="logo_cnrs" src="assets/images/logo_cnrs.png" align="bottom" style="width:100px;height:100px;" /></a>
+  <a href="https://www.cnrs.fr/en"><img class="logo" alt="logo_cnrs" src="assets/images/logo_cnrs.png" align="bottom" style="width:100px;height:100px;" /></a>
 
   <a href="https://www.cristal.univ-lille.fr/en"><img class="logo" alt="logo_cristal" src="assets/images/logo_cristal.png" align="bottom" style="width:260px;height:90px;" /></a>
 
