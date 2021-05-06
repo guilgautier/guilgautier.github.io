@@ -177,7 +177,7 @@ author:
     zenodo:
     zotero:
   links:
-    # See also how links are displayed in _includes/author-profile.html
+    # See also how links are displayed in _includes/author-profile.html and _includes/author-profile-custom-links
     # uncomment url to make link appear
     - label: "Email" # used above
       icon: "fas fa-fw fa-envelope"
@@ -193,10 +193,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/guilgautier"
-    - label: "Scholar"
-      icon: "ai ai-google-scholar"
-      url: "https://scholar.google.com/citations?user=zu3OK1kAAAAJ"
+      # url: "https://github.com/"
 
 # Site Footer
 # - see how links are displayed in _includes/footer.html
