@@ -99,7 +99,7 @@ analytics:
 author:
   name: "Guillaume Gautier"
   avatar: "/assets/images/guillaume_gautier.jpg"
-  bio: "Research Software Engineer, Ph.D. in Machine Learning"
+  bio: "Research Software Engineer<br>Ph.D. in Machine Learning<br>"
   location: "Lille, France"
   email: "guillaume.gga@gmail.com"
   github: "guilgautier"
